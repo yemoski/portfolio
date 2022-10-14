@@ -368,6 +368,10 @@ footer p:nth-child(2){
 }
 
 
+.p4{
+	background-color: black;
+}
+
 /****************contact me*******************************/
 .contact-info {
 	display: flex;

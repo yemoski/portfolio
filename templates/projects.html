@@ -18,6 +18,37 @@
 				
 				
 	</div>
+	<div class="project p3">
+		
+		<div class="project-text ">
+			<h2>POLAR FEDERATED SEARCH APP</h2>
+			<p>- This is a search app, created for the polar research community. </p>
+			<p>- Its main purpose is to serve the needs of polar researchers. </p>
+			<p>- The data provided are indexed from DATAONE, GEM (Greenland Ecosystem Monitoring), BAS (British Antarctic Survey) and many more.</p>
+		
+			<a href="https://search.polder.info/" target="_blank">
+				<button>Try it</button>
+			</a>
+		</div>
+		<img src="{{ url_for('static', filename='/images/pfs.png') }}">
+	</div>
+
+
+	<div class="project p4">
+		
+		<div class="project-text ">
+			<h2>DASHBOARD</h2>
+			<p>- This Dashboard displays KPI'S like unique users, bounce rate, sources of the users, distinct search terms etc of the polar federated search. </p>
+			<p>- This Dashboard also shows the user behaviour on the polar federated search. </p>
+			<p>- The information on this dashboard are private and are only accessible to the ITO (International Technology Office). </p>
+		
+
+	
+		
+			
+		</div>
+		<img src="{{ url_for('static', filename='/images/dashboard.png') }}">
+	</div>
 
 <div class="projects">
 	<div class="project p1">
@@ -49,6 +80,8 @@
 		</div>
 		<img src="{{ url_for('static', filename='/images/sr2.png') }}">
 	</div>
+
+
 	
 </div>
 {% endblock %}
