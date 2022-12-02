@@ -10,7 +10,7 @@ app.secret_key = 'portfolio'
 @app.route("/", methods = ["GET", "POST"])
 def home():
 
-
+	#comment
 	return render_template("index.html")
 
 
