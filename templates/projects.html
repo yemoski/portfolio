@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="content">
+
+	<div class="content-items">
+		<h4>👋Hi There,</h4> 
+	</div>	
+	<div class="content-items">
+		<h1>My <span>Projects</span></h1>
+	</div>	
+	<div class="content-items">
+		<h3>🧡 For Python, 💙For Flask,💚For JS,💜 For Api's.</h3>
+	</div>	
+	
+				
+				
+				
+				
+				
+	</div>
+	<div class="project p3">
+		
+		<div class="project-text ">
+			<h2>POLAR FEDERATED SEARCH APP</h2>
+			<p>- This is a search app, created for the polar research community. </p>
+			<p>- Its main purpose is to serve the needs of polar researchers. </p>
+			<p>- The data provided are indexed from DATAONE, GEM (Greenland Ecosystem Monitoring), BAS (British Antarctic Survey) and many more.</p>
+		
+			<a href="https://search.polder.info/" target="_blank">
+				<button>Try it</button>
+			</a>
+		</div>
+		<img src="{{ url_for('static', filename='/images/pfs.png') }}">
+	</div>
+
+
+	<div class="project p4">
+		
+		<div class="project-text ">
+			<h2>DASHBOARD</h2>
+			<p>- This Dashboard displays KPI'S like unique users, bounce rate, sources of the users, distinct search terms etc of the polar federated search. </p>
+			<p>- This Dashboard also shows the user behaviour on the polar federated search. </p>
+			<p>- The information on this dashboard are private and are only accessible to the ITO (International Technology Office). </p>
+		
+
+	
+		
+			
+		</div>
+		<img src="{{ url_for('static', filename='/images/dashboard.png') }}">
+	</div>
+
+<div class="projects">
+	<div class="project p1">
+		
+		<div class="project-text ">
+			<h2>FANTASY PREMIER LEAGUE CHEAT BOT</h2>
+			<p>- This is an application that chooses the best 11 available player on all FPL formations.</p>
+			<p>- It picks the players based on their ICT(Influence, Creativity and Threat) and Form in the last 30 days. </p>
+			<p>- It follows all the FPL rules like 3 players max from a particular team, a budget of £100M etc. </p>
+			<p>- It has a stats page with expected goals (xG) and expected goals against (xGA) which provides more insight to the users on which player to pick.</p>
+			<p>- It also provides users useful news about the next game week e.g deadline, number of chip plays by all other managers etc.</p>
+			<a href="https://fplcheat.herokuapp.com/" target="_blank">
+				<button>Try it</button>
+			</a>
+		</div>
+		<img src="{{ url_for('static', filename='/images/fpl.png') }}">
+	</div>
+	<div class="project p2">
+		
+		<div class="project-text ">
+			<h2>SONG RECOMMENDER</h2>
+			<p>- This is an application that uses the Spotify Api to suggest songs to the users.</p>
+			<p>- It suggests the most/least popular song based on the user's search query. </p>
+			<p>- It also alows the users to listen to the preview of the song to see if you like it. </p>
+			<p>- Users can also open the song in spotify and add it to your playlist if you fancy it.</p>
+			<a href="https://secommend.herokuapp.com/" target="_blank">
+				<button>Try it</button>
+			</a>
+		</div>
+		<img src="{{ url_for('static', filename='/images/sr2.png') }}">
+	</div>
+
+
+	
+</div>
+{% endblock %}
