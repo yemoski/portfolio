@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="content">
+	<div class="content-items">
+		<h4>👋Hello, my name is</h4> 
+	</div>
+	<div class="content-items">
+		<h1>Yemisi <span>Ogungbemi</span></h1>
+	</div>	
+	<div class="content-items">
+		<h3>I am a Software Developer.</h3>
+	</div>	
+	<div class="content-items">
+		<h3>Welcome to my personal Website!</h3>
+	</div>	
+				
+				
+				
+				
+	</div>
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="{{ url_for('static', filename='/images/main.jpg') }}">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Data Analyst</span></h5>
+				<p>I am a Software Developer currently based in British Columbia, Canada. I provide clean code and pixel perfect design. I am dedicated to developing solutions to real life problems with logic. I also make Dashboards that are interactive with web animations. I love producing a responsive design that makes your website accessible to all users, regardless of their device and disability.
+				<span class="about-me-special">I'm glad you are here!</span>
+			</p>
+				
+			</div>
+		</div>
+	</section>
+
+	
+
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p>Let Me Get You A Beautiful Website or Application!</p>
+		<a class="button-two" href="{{ url_for('contact') }}">Hire Me</a>
+	</div>
+
+	{% endblock %}

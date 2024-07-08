@@ -64,7 +64,7 @@ nav ul li a:hover{
 	display: block;
 	width: 100%;
 	background-color: black;
-	height: 50%;
+	height: 100vh;
 
 }
 .content-items{
@@ -368,6 +368,10 @@ footer p:nth-child(2){
 }
 
 
+.p4{
+	background-color: black;
+}
+
 /****************contact me*******************************/
 .contact-info {
 	display: flex;
@@ -405,3 +409,80 @@ footer p:nth-child(2){
 	color: white;
 	text-align: center;
 }
+
+
+/*********************Media **************************/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){
+  	.content{
+  		height: 50%;
+  	}
+
+  	nav ul li a{
+  		font-size: 20px;
+  	}
+
+  	.about-text p,h5{
+  		font-size: 35px;
+  		line-height: 35px;
+  	}
+
+  	.content-items h3{
+  		font-size: 35px;
+  	}
+
+  	.project{
+  		height: 53vh;
+  	}
+
+  	.project-text {
+  		margin-left: 35px;
+  	}
+
+
+  	.project-text p{
+  		font-size: 30px;
+  		line-height: 35px;
+  	}
+
+
+  	.contact-me .button-two{
+  		padding: 25px 30px;
+  		font-size: 30px;
+  	}
+
+
+  	.content-items h4{
+  		font-size: 30px;
+  	}
+
+
+  	.project-text button{
+  		padding: 25px 30px;
+  		font-size: 30px;
+
+  	}
+
+  	footer p:nth-child(1){
+	font-size: 35px;
+	
+}
+	footer p:nth-child(2){
+	
+	font-size: 25px;
+	}
+
+	.social a {
+		width: 75px;
+		height: 75px;
+	}
+	.end{
+		font-size: 25px;
+	}
+
+
+ }
